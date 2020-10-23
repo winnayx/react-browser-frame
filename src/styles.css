@@ -26,20 +26,32 @@
   border-bottom-right-radius: 0;
 }
 .browser-frame__button {
-  width: 12px;
-  height: 12px;
+  width: 14px;
+  height: 14px;
   border-radius: 50%;
-  margin-right: 6px;
+  margin-right: 8px;
   flex-shrink: 0;
+  cursor: pointer;
 }
+
 .browser-frame__button--red {
   background: var(--red);
 }
+.browser-frame__button--red:hover {
+  background: #ffcccc;
+}
+
 .browser-frame__button--yellow {
   background: var(--yellow);
 }
+.browser-frame__button--yellow:hover {
+  background: yellow;
+}
 .browser-frame__button--green {
   background: var(--green);
+}
+.browser-frame__button--green:hover {
+  background: greenyellow;
 }
 .browser-frame__address {
   text-align: left;
